@@ -25,5 +25,12 @@
 				<guid>http://localhost:1313/en/routes/pyrenees/</guid>
 				<description>&lt;p&gt;The Pyrenees route is an experience designed to discover the region&#xA;on two wheels.&lt;/p&gt;&#xA;&lt;p&gt;We are not looking for kilometres just for the sake of riding.&#xA;We are looking for roads worth riding, landscapes worth stopping for,&#xA;and places worth discovering.&lt;/p&gt;&#xA;&lt;p&gt;The route combines mountain passes, secondary roads, small villages&#xA;and local gastronomy.&lt;/p&gt;&#xA;&lt;p&gt;The goal is to enjoy the motorcycle, but also everything that happens&#xA;off the road.&lt;/p&gt;</description>
 			</item>
+			<item>
+				<title>Sobre Pyrimoto</title>
+				<link>http://localhost:1313/en/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/about/</guid>
+				<description>&lt;p&gt;Pyrimoto neix de la passió per la moto, les carreteres secundàries&#xA;i la descoberta del territori.&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>

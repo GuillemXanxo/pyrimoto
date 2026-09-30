@@ -6,19 +6,17 @@
 
     <header class="route-hero">
 
-    {{ $imagePath := printf "images/routes/%s/%s" .Params.imageDir .Params.hero }}
+        {{ $imagePath := printf "images/routes/%s/%s" .Params.imageDir .Params.hero }}
 
-{{ partial "image.html" (dict
-    "src" $imagePath
-    "alt" .Title
-    "class" "route-hero-image"
-    "loading" "eager"
-    "sizes" "100vw"
-) }}
+        {{ partial "image.html" (dict
+            "src" $imagePath
+            "alt" .Title
+            "class" "route-hero-image"
+            "loading" "eager"
+            "sizes" "100vw"
+        ) }}
 
-
-</header>
-
+    </header>
 
 
     <!-- INTRO -->
@@ -59,8 +57,8 @@
 
         <div class="route-summary-item">
             <strong>
-    {{ i18n (printf "difficulty_%s" .Params.difficulty) }}
-</strong>
+                {{ i18n (printf "difficulty_%s" .Params.difficulty) }}
+            </strong>
 
             <small>{{ i18n "difficulty" }}</small>
         </div>
@@ -75,7 +73,7 @@
         <h2>{{ i18n "route_map" }}</h2>
 
         <div class="route-map-placeholder">
-            <p>{{ i18n "route_map" }}</p>
+            <p>{{ i18n "route_map_placeholder" }}</p>
         </div>
 
     </section>
@@ -85,7 +83,7 @@
 
     <section class="route-content">
 
-        <h2>{{ i18n "route" }}</h2>
+        <h2>{{ i18n "route_description" }}</h2>
 
         {{ .Content }}
 
@@ -96,7 +94,7 @@
 
     <section class="route-itinerary">
 
-        <h2>{{ i18n "itinerary" }}</h2>
+        <h2>{{ i18n "route_itinerary" }}</h2>
 
         <div class="route-days">
 
@@ -105,7 +103,7 @@
                 <article class="route-day">
 
                     <div class="route-day-number">
-                        <span>{{ i18n "day" }}</span>
+                        <span>{{ i18n "route_day" }}</span>
                         <strong>{{ .number }}</strong>
                     </div>
 

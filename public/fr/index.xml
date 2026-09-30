@@ -25,5 +25,12 @@
 				<guid>http://localhost:1313/fr/routes/priorat/</guid>
 				<description>&lt;h2 id=&#34;la-ruta&#34;&gt;La ruta&lt;/h2&gt;&#xA;&lt;p&gt;Una ruta de dos dies per descobrir el Priorat sobre dues rodes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;el-recorregut&#34;&gt;El recorregut&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;què-viuràs&#34;&gt;Què viuràs&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;què-inclou&#34;&gt;Què inclou&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;informació-pràctica&#34;&gt;Informació pràctica&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;</description>
 			</item>
+			<item>
+				<title>Sobre Pyrimoto</title>
+				<link>http://localhost:1313/fr/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/about/</guid>
+				<description>&lt;p&gt;Pyrimoto neix de la passió per la moto, les carreteres secundàries&#xA;i la descoberta del territori.&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>

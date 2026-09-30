@@ -6,7 +6,7 @@ description: "Una escapada entre vinyes, carreteres sinuoses i paisatges del Pri
 region: "Priorat"
 duration: "2 dies"
 distance: "350 km"
-difficulty: "Fàcil"
+difficulty: "easy"
 
 season: "Tot l'any"
 

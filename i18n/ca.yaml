@@ -22,6 +22,9 @@ day:
 route_map:
   other: "El recorregut"
 
+route_map_placeholder:
+  other: "Mapa de la ruta"
+
 km:
   other: "km"
 
@@ -33,3 +36,45 @@ difficulty_medium:
 
 difficulty_hard:
   other: "Difícil"
+
+main_navigation:
+  other: "Navegació principal"
+
+routes:
+  other: "Rutes"
+
+about:
+  other: "Sobre Pyrimoto"
+
+route_description:
+  other: "La ruta"
+
+route_itinerary:
+  other: "Itinerari"
+
+route_day:
+  other: "Dia"
+
+route_experience:
+  other: "Què viuràs"
+
+route_distance:
+  other: "Distància"
+
+route_difficulty:
+  other: "Dificultat"
+
+route_duration:
+  other: "Durada"
+
+home_philosophy_title:
+  other: "No venem quilòmetres. Creem experiències."
+
+home_routes_title:
+  other: "Descobreix les nostres rutes"
+
+home_cta_title:
+  other: "La carretera t'espera"
+
+home_cta_button:
+  other: "Veure totes les rutes"

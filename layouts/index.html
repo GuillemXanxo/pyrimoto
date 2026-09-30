@@ -1,11 +1,113 @@
 {{ define "main" }}
 
-<section class="hero">
-  <h1>Pyrimoto</h1>
+<main class="home">
 
-  <p>Viatges guiats amb moto.</p>
+    <!-- HERO -->
 
-  <a href="/routes/"> Descobreix les nostres rutes </a>
-</section>
+    <section class="home-hero">
+
+        {{ partial "image.html" (dict
+            "src" "images/home/hero.jpg"
+            "alt" "Pyrimoto"
+            "class" "home-hero-image"
+            "loading" "eager"
+            "sizes" "100vw"
+        ) }}
+
+        <div class="home-hero-overlay">
+
+            <p class="home-eyebrow">
+                Pyrimoto
+            </p>
+
+            <h1>
+                {{ .Title }}
+            </h1>
+
+            <p>
+                {{ .Params.description }}
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- PHILOSOPHY -->
+
+    <section class="home-philosophy">
+
+        <div class="home-section-inner">
+
+            <p class="home-eyebrow">
+                Pyrimoto
+            </p>
+
+            <h2>
+                {{ i18n "home_philosophy_title" }}
+            </h2>
+
+            <div class="home-philosophy-content">
+                {{ .Content }}
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ROUTES -->
+
+    <section class="home-routes">
+
+        <div class="home-section-inner">
+
+            <header class="home-section-header">
+
+                <p class="home-eyebrow">
+                    {{ i18n "routes" }}
+                </p>
+
+                <h2>
+                    {{ i18n "home_routes_title" }}
+                </h2>
+
+            </header>
+
+
+            <div class="routes-grid">
+
+                {{ range where .Site.RegularPages "Section" "routes" }}
+
+                    {{ partial "route-card.html" . }}
+
+                {{ end }}
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="home-cta">
+
+        <div class="home-section-inner">
+
+            <h2>
+                {{ i18n "home_cta_title" }}
+            </h2>
+
+            <a href="{{ "routes/" | relLangURL }}" class="button">
+                {{ i18n "home_cta_button" }}
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
 
 {{ end }}

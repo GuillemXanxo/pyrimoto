@@ -1,0 +1,27 @@
+<a href="{{ .RelPermalink }}" class="route-card">
+  {{ $imagePath := printf "images/routes/%s/%s" .Params.imageDir .Params.hero }}
+
+  <div class="route-card-image">
+    {{ partial "image.html" (dict "src" $imagePath "alt" .Title "sizes"
+    "(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 50vw" ) }}
+  </div>
+
+  <div class="route-card-content">
+    <p class="route-card-region">{{ .Params.region }}</p>
+
+    <h2>{{ .Title }}</h2>
+
+    <p class="route-card-description">{{ .Params.description }}</p>
+
+    <div class="route-card-meta">
+      <span> {{ .Params.distance }} {{ i18n "km" }} </span>
+
+      <span> {{ .Params.duration }} {{ i18n "days" }} </span>
+
+      <span>
+        {{ $difficulty := printf "difficulty_%s" .Params.difficulty }} {{ i18n
+        $difficulty }}
+      </span>
+    </div>
+  </div>
+</a>

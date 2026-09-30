@@ -15,7 +15,32 @@
   </head>
 
   <body>
-    <nav class="language-switcher" aria-label="Idioma">
+    <header class="site-header">
+
+    <div class="site-header-inner">
+
+        <a
+            class="site-logo"
+            href="/en/"
+            aria-label="Pyrimoto"
+        >
+            Pyrimoto
+        </a>
+
+        <nav class="site-nav" aria-label="Main navigation">
+
+            <a href="/en/routes/">
+                Routes
+            </a>
+
+            <a href="/en/about/">
+                About Pyrimoto
+            </a>
+
+        </nav>
+
+        <div class="site-language">
+            <nav class="language-switcher" aria-label="Idioma">
   
   <a href="/routes/"> CA </a>
   
@@ -27,54 +52,102 @@
   
 </nav>
 
+        </div>
+
+    </div>
+
+</header>
+
 
     <main>
 
-<section>
-  <h1>Rutes</h1>
+<main class="routes-page">
+  <header class="routes-header">
+    <p class="routes-eyebrow">Routes</p>
 
-  <p>Descobreix les rutes Pyrimoto.</p>
+    <h1></h1>
 
+    
+  </header>
+
+  <section class="routes-grid">
+     <a href="/en/routes/priorat/" class="route-card">
   
-  <article>
-    <h2>
-      <a href="/en/routes/priorat/"> Priorat </a>
-    </h2>
 
-    <p>Una escapada entre vinyes, carreteres sinuoses i paisatges del Priorat.</p>
+  <div class="route-card-image">
+    <img
+        src="/images/routes/priorat/hero_hu_28702d7b9e009d01.webp"
+        
+        srcset="/images/routes/priorat/hero_hu_fa2504f53085b36.webp 480w, /images/routes/priorat/hero_hu_2afec0a313f4ffbe.webp 768w, /images/routes/priorat/hero_hu_28702d7b9e009d01.webp 1200w"
+        
+        sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 50vw"
+        width="1400"
+        height="788"
+        alt="Priorat"
+        class=""
+        loading="lazy"
+        decoding="async"
+    >
+  </div>
 
-    <dl>
-      <dt>Durada</dt>
-      <dd>2 dies</dd>
+  <div class="route-card-content">
+    <p class="route-card-region">Priorat</p>
 
-      <dt>Distància</dt>
-      <dd>350 km</dd>
+    <h2>Priorat</h2>
 
-      <dt>Dificultat</dt>
-      <dd>Fàcil</dd>
-    </dl>
-  </article>
+    <p class="route-card-description">Una escapada entre vinyes, carreteres sinuoses i paisatges del Priorat.</p>
+
+    <div class="route-card-meta">
+      <span> 350 km km </span>
+
+      <span> 2 dies days </span>
+
+      <span>
+         Easy
+      </span>
+    </div>
+  </div>
+</a>
+  <a href="/en/routes/pyrenees/" class="route-card">
   
-  <article>
-    <h2>
-      <a href="/en/routes/pyrenees/"> Pyrenees </a>
-    </h2>
 
-    <p>Five days riding some of the best mountain roads in the Pyrenees.</p>
+  <div class="route-card-image">
+    <img
+        src="/images/routes/pyrenees/hero_hu_28702d7b9e009d01.webp"
+        
+        srcset="/images/routes/pyrenees/hero_hu_fa2504f53085b36.webp 480w, /images/routes/pyrenees/hero_hu_2afec0a313f4ffbe.webp 768w, /images/routes/pyrenees/hero_hu_28702d7b9e009d01.webp 1200w"
+        
+        sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 50vw"
+        width="1400"
+        height="788"
+        alt="Pyrenees"
+        class=""
+        loading="lazy"
+        decoding="async"
+    >
+  </div>
 
-    <dl>
-      <dt>Durada</dt>
-      <dd>5</dd>
+  <div class="route-card-content">
+    <p class="route-card-region">Pyrenees</p>
 
-      <dt>Distància</dt>
-      <dd>1200</dd>
+    <h2>Pyrenees</h2>
 
-      <dt>Dificultat</dt>
-      <dd>medium</dd>
-    </dl>
-  </article>
-  
-</section>
+    <p class="route-card-description">Five days riding some of the best mountain roads in the Pyrenees.</p>
+
+    <div class="route-card-meta">
+      <span> 1200 km </span>
+
+      <span> 5 days </span>
+
+      <span>
+         Medium
+      </span>
+    </div>
+  </div>
+</a>
+ 
+  </section>
+</main>
 
 </main>
 

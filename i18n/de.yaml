@@ -14,7 +14,7 @@ route:
   other: "Die Route"
 
 itinerary:
-  other: "Etappen"
+  other: "Reiseverlauf"
 
 day:
   other: "Tag"
@@ -22,14 +22,59 @@ day:
 route_map:
   other: "Die Strecke"
 
+route_map_placeholder:
+  other: "Routenkarte"
+
 km:
   other: "km"
 
 difficulty_easy:
-  other: "Leicht"
+  other: "Einfach"
 
 difficulty_medium:
   other: "Mittel"
 
 difficulty_hard:
   other: "Schwierig"
+
+main_navigation:
+  other: "Hauptnavigation"
+
+routes:
+  other: "Routen"
+
+about:
+  other: "Über Pyrimoto"
+
+route_description:
+  other: "Die Route"
+
+route_itinerary:
+  other: "Reiseverlauf"
+
+route_day:
+  other: "Tag"
+
+route_experience:
+  other: "Was Sie erleben werden"
+
+route_distance:
+  other: "Entfernung"
+
+route_difficulty:
+  other: "Schwierigkeit"
+
+route_duration:
+  other: "Dauer"
+
+home_philosophy_title:
+  other: "Wir verkaufen keine Kilometer. Wir schaffen Erlebnisse."
+
+home_routes_title:
+  other: "Entdecke unsere Routen"
+
+home_cta_title:
+  other: "Die Straße wartet auf dich"
+
+home_cta_button:
+  other: "Alle Routen entdecken"

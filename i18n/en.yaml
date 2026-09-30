@@ -20,7 +20,10 @@ day:
   other: "Day"
 
 route_map:
-  other: "Route"
+  other: "The route map"
+
+route_map_placeholder:
+  other: "Route map"
 
 km:
   other: "km"
@@ -33,3 +36,45 @@ difficulty_medium:
 
 difficulty_hard:
   other: "Hard"
+
+main_navigation:
+  other: "Main navigation"
+
+routes:
+  other: "Routes"
+
+about:
+  other: "About Pyrimoto"
+
+route_description:
+  other: "The route"
+
+route_itinerary:
+  other: "Itinerary"
+
+route_day:
+  other: "Day"
+
+route_experience:
+  other: "What you'll experience"
+
+route_distance:
+  other: "Distance"
+
+route_difficulty:
+  other: "Difficulty"
+
+route_duration:
+  other: "Duration"
+
+home_philosophy_title:
+  other: "We don't sell kilometres. We create experiences."
+
+home_routes_title:
+  other: "Discover our routes"
+
+home_cta_title:
+  other: "The road is waiting"
+
+home_cta_button:
+  other: "See all routes"

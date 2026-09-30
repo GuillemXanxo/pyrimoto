@@ -7,28 +7,28 @@ defaultContentLanguageInSubdir = false
 [languages]
 
   [languages.ca]
-    languageName = "Català"
-    languageCode = "ca"
+    label = "Català"
+    locale = "ca"
     weight = 1
 
   [languages.es]
-    languageName = "Castellano"
-    languageCode = "es"
+    label = "Castellano"
+    locale = "es"
     weight = 2
 
   [languages.en]
-    languageName = "English"
-    languageCode = "en"
+    label = "English"
+    locale = "en"
     weight = 3
 
   [languages.fr]
-    languageName = "Français"
-    languageCode = "fr"
+    label = "Français"
+    locale = "fr"
     weight = 4
 
   [languages.de]
-    languageName = "Deutsch"
-    languageCode = "de"
+    label = "Deutsch"
+    locale = "de"
     weight = 5
 
 [params]

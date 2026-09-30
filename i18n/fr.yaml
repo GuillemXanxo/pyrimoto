@@ -22,6 +22,9 @@ day:
 route_map:
   other: "Le parcours"
 
+route_map_placeholder:
+  other: "Carte du parcours"
+
 km:
   other: "km"
 
@@ -29,7 +32,49 @@ difficulty_easy:
   other: "Facile"
 
 difficulty_medium:
-  other: "Moyenne"
+  other: "Intermédiaire"
 
 difficulty_hard:
   other: "Difficile"
+
+main_navigation:
+  other: "Navigation principale"
+
+routes:
+  other: "Itinéraires"
+
+about:
+  other: "À propos de Pyrimoto"
+
+route_description:
+  other: "L'itinéraire"
+
+route_itinerary:
+  other: "Itinéraire"
+
+route_day:
+  other: "Jour"
+
+route_experience:
+  other: "Ce que vous vivrez"
+
+route_distance:
+  other: "Distance"
+
+route_difficulty:
+  other: "Difficulté"
+
+route_duration:
+  other: "Durée"
+
+home_philosophy_title:
+  other: "Nous ne vendons pas des kilomètres. Nous créons des expériences."
+
+home_routes_title:
+  other: "Découvrez nos itinéraires"
+
+home_cta_title:
+  other: "La route vous attend"
+
+home_cta_button:
+  other: "Voir tous les itinéraires"
