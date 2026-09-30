@@ -1,0 +1,43 @@
+---
+title: "Priorat"
+
+description: "Una escapada entre vinyes, carreteres sinuoses i paisatges del Priorat."
+
+region: "Priorat"
+duration: "2 dies"
+distance: "350 km"
+difficulty: "Fàcil"
+
+season: "Tot l'any"
+
+featured: true
+
+imageDir: "priorat"
+hero: "hero.jpg"
+
+highlights:
+  - "Carreteres sinuoses"
+  - "Vinyes i cellers"
+  - "Pobles amb encant"
+  - "Gastronomia"
+---
+
+## La ruta
+
+Una ruta de dos dies per descobrir el Priorat sobre dues rodes.
+
+## El recorregut
+
+...
+
+## Què viuràs
+
+...
+
+## Què inclou
+
+...
+
+## Informació pràctica
+
+...

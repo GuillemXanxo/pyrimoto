@@ -1,0 +1,5 @@
+<nav class="language-switcher" aria-label="Idioma">
+  {{ range .Translations }}
+  <a href="{{ .RelPermalink }}"> {{ .Language.LanguageCode | upper }} </a>
+  {{ end }}
+</nav>

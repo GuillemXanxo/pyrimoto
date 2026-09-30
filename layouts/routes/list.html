@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<section>
+  <h1>Rutes</h1>
+
+  <p>Descobreix les rutes Pyrimoto.</p>
+
+  {{ range .Pages }}
+  <article>
+    <h2>
+      <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
+    </h2>
+
+    <p>{{ .Description }}</p>
+
+    <dl>
+      <dt>Durada</dt>
+      <dd>{{ .Params.duration }}</dd>
+
+      <dt>Distància</dt>
+      <dd>{{ .Params.distance }}</dd>
+
+      <dt>Dificultat</dt>
+      <dd>{{ .Params.difficulty }}</dd>
+    </dl>
+  </article>
+  {{ end }}
+</section>
+
+{{ end }}

@@ -1,0 +1,35 @@
+distance:
+  other: "Entfernung"
+
+duration:
+  other: "Dauer"
+
+days:
+  other: "Tage"
+
+difficulty:
+  other: "Schwierigkeit"
+
+route:
+  other: "Die Route"
+
+itinerary:
+  other: "Etappen"
+
+day:
+  other: "Tag"
+
+route_map:
+  other: "Die Strecke"
+
+km:
+  other: "km"
+
+difficulty_easy:
+  other: "Leicht"
+
+difficulty_medium:
+  other: "Mittel"
+
+difficulty_hard:
+  other: "Schwierig"

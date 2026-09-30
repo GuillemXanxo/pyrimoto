@@ -1,0 +1,136 @@
+{{ define "main" }}
+
+<article class="route">
+
+    <!-- HERO -->
+
+    <header class="route-hero">
+
+    {{ $imagePath := printf "images/routes/%s/%s" .Params.imageDir .Params.hero }}
+
+{{ partial "image.html" (dict
+    "src" $imagePath
+    "alt" .Title
+    "class" "route-hero-image"
+    "loading" "eager"
+    "sizes" "100vw"
+) }}
+
+
+</header>
+
+
+
+    <!-- INTRO -->
+
+    <section class="route-intro">
+
+        <p class="route-region">
+            {{ .Params.region }}
+        </p>
+
+        <h1>{{ .Title }}</h1>
+
+        <p class="route-description">
+            {{ .Params.description }}
+        </p>
+
+    </section>
+
+
+    <!-- SUMMARY -->
+
+    <section
+        class="route-summary"
+        aria-label="{{ i18n "route" }}"
+    >
+
+        <div class="route-summary-item">
+            <strong>{{ .Params.distance }}</strong>
+            <span>{{ i18n "km" }}</span>
+            <small>{{ i18n "distance" }}</small>
+        </div>
+
+        <div class="route-summary-item">
+            <strong>{{ .Params.duration }}</strong>
+            <span>{{ i18n "days" }}</span>
+            <small>{{ i18n "duration" }}</small>
+        </div>
+
+        <div class="route-summary-item">
+            <strong>
+    {{ i18n (printf "difficulty_%s" .Params.difficulty) }}
+</strong>
+
+            <small>{{ i18n "difficulty" }}</small>
+        </div>
+
+    </section>
+
+
+    <!-- MAP -->
+
+    <section class="route-map">
+
+        <h2>{{ i18n "route_map" }}</h2>
+
+        <div class="route-map-placeholder">
+            <p>{{ i18n "route_map" }}</p>
+        </div>
+
+    </section>
+
+
+    <!-- DESCRIPTION -->
+
+    <section class="route-content">
+
+        <h2>{{ i18n "route" }}</h2>
+
+        {{ .Content }}
+
+    </section>
+
+
+    <!-- ITINERARY -->
+
+    <section class="route-itinerary">
+
+        <h2>{{ i18n "itinerary" }}</h2>
+
+        <div class="route-days">
+
+            {{ range .Params.days }}
+
+                <article class="route-day">
+
+                    <div class="route-day-number">
+                        <span>{{ i18n "day" }}</span>
+                        <strong>{{ .number }}</strong>
+                    </div>
+
+                    <div class="route-day-content">
+
+                        <h3>{{ .title }}</h3>
+
+                        <p class="route-day-distance">
+                            {{ .distance }} {{ i18n "km" }}
+                        </p>
+
+                        <p>
+                            {{ .description }}
+                        </p>
+
+                    </div>
+
+                </article>
+
+            {{ end }}
+
+        </div>
+
+    </section>
+
+</article>
+
+{{ end }}

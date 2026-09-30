@@ -1,0 +1,44 @@
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $class := .class | default "" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $sizes := .sizes | default "100vw" -}}
+
+{{- $image := resources.Get $src -}}
+
+{{- if not $image -}}
+    {{- errorf "Image not found: %s" $src -}}
+{{- else -}}
+
+    {{- $widths := slice 480 768 1200 1600 -}}
+    {{- $srcset := slice -}}
+
+    {{- range $width := $widths -}}
+
+        {{- if le $width $image.Width -}}
+
+            {{- $processed := $image.Resize (printf "%dx webp" $width) -}}
+
+            {{- $srcset = $srcset | append (printf "%s %dw" $processed.RelPermalink $width) -}}
+
+        {{- end -}}
+
+    {{- end -}}
+
+    {{- $fallback := $image.Resize "1200x webp" -}}
+
+    <img
+        src="{{ $fallback.RelPermalink }}"
+        {{ with $srcset }}
+        srcset="{{ delimit . ", " }}"
+        {{ end }}
+        sizes="{{ $sizes }}"
+        width="{{ $image.Width }}"
+        height="{{ $image.Height }}"
+        alt="{{ $alt }}"
+        class="{{ $class }}"
+        loading="{{ $loading }}"
+        decoding="async"
+    >
+
+{{- end -}}

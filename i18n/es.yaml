@@ -1,0 +1,35 @@
+distance:
+  other: "Distancia"
+
+duration:
+  other: "Duración"
+
+days:
+  other: "días"
+
+difficulty:
+  other: "Dificultad"
+
+route:
+  other: "La ruta"
+
+itinerary:
+  other: "Itinerario"
+
+day:
+  other: "Día"
+
+route_map:
+  other: "El recorrido"
+
+km:
+  other: "km"
+
+difficulty_easy:
+  other: "Fácil"
+
+difficulty_medium:
+  other: "Media"
+
+difficulty_hard:
+  other: "Difícil"
