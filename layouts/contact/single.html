@@ -1,0 +1,101 @@
+{{ define "main" }}
+
+<main class="contact-page">
+
+    <section class="contact-profile">
+
+        <div class="contact-photo">
+
+            {{ partial "image.html" (dict
+                "src" "images/contact/profile.jpg"
+                "alt" .Title
+                "class" "contact-profile-image"
+                "loading" "eager"
+                "sizes" "(max-width: 800px) 100vw, 40vw"
+            ) }}
+
+        </div>
+
+
+        <div class="contact-content">
+
+            <p class="contact-eyebrow">
+                {{ i18n "contact" }}
+            </p>
+
+            <h1>{{ .Title }}</h1>
+
+            <div class="contact-body">
+                {{ .Content }}
+            </div>
+
+        </div>
+
+    </section>
+
+
+    {{ if or .Params.email .Params.instagram .Params.phone }}
+
+    <section class="contact-links">
+
+        <div class="contact-links-inner">
+
+            <h2>
+                {{ i18n "contact_find_me" }}
+            </h2>
+
+            <div class="contact-links-list">
+
+                {{ with .Params.email }}
+                    <a href="mailto:{{ . }}">
+                        {{ . }}
+                    </a>
+                {{ end }}
+
+                {{ with .Params.instagram }}
+                    <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+                        Instagram
+                    </a>
+                {{ end }}
+
+                {{ with .Params.phone }}
+                    <a href="tel:{{ . }}">
+                        {{ . }}
+                    </a>
+                {{ end }}
+
+            </div>
+
+        </div>
+
+    </section>
+
+    {{ end }}
+
+
+    <section class="contact-cta">
+
+        <div class="contact-cta-inner">
+
+            <p class="contact-eyebrow">
+                Pyrimoto
+            </p>
+
+            <h2>
+                {{ i18n "contact_cta_title" }}
+            </h2>
+
+            <a
+                href="{{ "/routes/" | relLangURL }}"
+                class="button"
+            >
+                {{ i18n "home_cta_button" }}
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+{{ end }}

@@ -12,6 +12,13 @@
 		
 			<atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>Contacte</title>
+				<link>http://localhost:1313/fr/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/fr/contact/</guid>
+				<description>&lt;h2 id=&#34;qui-soc&#34;&gt;Qui soc&lt;/h2&gt;&#xA;&lt;p&gt;Soc [NOM], fundador de Pyrimoto.&lt;/p&gt;&#xA;&lt;p&gt;[ESPAI PER A LA TEVA HISTÒRIA]&lt;/p&gt;&#xA;&lt;p&gt;Pyrimoto neix de la meva passió per la moto, les carreteres secundàries i la descoberta de nous territoris.&lt;/p&gt;</description>
+			</item>
+			<item>
 				<title>Pirineus</title>
 				<link>http://localhost:1313/fr/routes/pyrenees/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -78,3 +78,12 @@ home_cta_title:
 
 home_cta_button:
   other: "Ver todas las rutas"
+
+contact:
+  other: "Contacto"
+
+contact_find_me:
+  other: "Dónde encontrarme"
+
+contact_cta_title:
+  other: "Descubre las rutas de Pyrimoto"
