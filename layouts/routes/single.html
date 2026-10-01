@@ -70,13 +70,27 @@
 
     <section class="route-map">
 
-        <h2>{{ i18n "route_map" }}</h2>
+    <h2>{{ i18n "route_map" }}</h2>
+
+    {{ if .Params.gpx }}
+
+        <div
+    id="route-map"
+    class="route-map-container"
+    data-gpx="{{ printf "/gpx/%s" .Params.gpx }}"
+></div>
+
+
+    {{ else }}
 
         <div class="route-map-placeholder">
             <p>{{ i18n "route_map_placeholder" }}</p>
         </div>
 
-    </section>
+    {{ end }}
+
+</section>
+
 
 
     <!-- DESCRIPTION -->

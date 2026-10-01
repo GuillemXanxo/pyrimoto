@@ -1,14 +1,11 @@
 ---
 title: "Contacte"
 description: "Parlem de motos, rutes i nous viatges."
-email: ""
-instagram: ""
-phone: ""
+email: "pyrimoto@gmail.com"
+instagram: "@pyri.moto"
 ---
 
-## Qui soc
-
-Soc [NOM], fundador de Pyrimoto.
+Soc en Guillem, fundador de Pyrimoto.
 
 [ESPAI PER A LA TEVA HISTÒRIA]
 

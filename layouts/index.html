@@ -16,10 +16,6 @@
 
         <div class="home-hero-overlay">
 
-            <p class="home-eyebrow">
-                Pyrimoto
-            </p>
-
             <h1>
                 {{ .Title }}
             </h1>
@@ -39,17 +35,16 @@
 
         <div class="home-section-inner">
 
-            <p class="home-eyebrow">
-                Pyrimoto
-            </p>
-
-            <h2>
-                {{ i18n "home_philosophy_title" }}
-            </h2>
-
             <div class="home-philosophy-content">
                 {{ .Content }}
             </div>
+            <a
+    href="{{ "about/" | relLangURL }}"
+    class="home-philosophy-link"
+>
+    {{ i18n "home_about_link" }}
+</a>
+
 
         </div>
 

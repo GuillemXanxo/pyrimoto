@@ -4,9 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
 
     <title>
-       Pirineus · Pyrimoto 
+       Pirineus Girona · Pyrimoto 
     </title>
 
     <meta name="description" content="Viatges guiats amb moto pels millors paisatges i carreteres dels Pirineus." />
@@ -15,6 +19,8 @@
   </head>
 
   <body>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
     <header class="site-header">
 
     <div class="site-header-inner">
@@ -82,7 +88,7 @@
         sizes="100vw"
         width="1400"
         height="788"
-        alt="Pirineus"
+        alt="Pirineus Girona"
         class="route-hero-image"
         loading="eager"
         decoding="async"
@@ -96,10 +102,10 @@
     <section class="route-intro">
 
         <p class="route-region">
-            Pirineus
+            Catalunya
         </p>
 
-        <h1>Pirineus</h1>
+        <h1>Pirineus Girona</h1>
 
         <p class="route-description">
             Cinc dies recorrent alguns dels millors ports i carreteres dels Pirineus.
@@ -142,13 +148,21 @@
 
     <section class="route-map">
 
-        <h2>El recorregut</h2>
+    <h2>El recorregut</h2>
 
-        <div class="route-map-placeholder">
-            <p>Mapa de la ruta</p>
-        </div>
+    
 
-    </section>
+        <div
+    id="route-map"
+    class="route-map-container"
+    data-gpx="/gpx/pyrenees.gpx"
+></div>
+
+
+    
+
+</section>
+
 
 
     
@@ -318,4 +332,16 @@ la carretera.</p>
 </footer>
 
   </body>
+  
+  <script
+    src="/js/header.min.f57a3ac258480bc5780f8419b8498d7a16120c158ebcdf31194c3599f07dba53.js"
+    integrity="sha256-9Xo6wlhIC8V4D4QZuEmNehYSDBWOvN8xGUw1mfB9ulM="
+    defer
+  ></script>
+  
+  <script
+    src="/js/route-map.min.1474f89424f9bf87e87dd4c0e739b5e096a992b5260e5da23f80d8f28c0cc6db.js"
+    integrity="sha256-FHT4lCT5v4fofdTA5zm14JapkrUmDl2iP4DY8owMxts="
+    defer
+  ></script>
 </html>

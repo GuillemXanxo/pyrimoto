@@ -3,9 +3,9 @@ title: "Priorat"
 
 description: "Una escapada entre vinyes, carreteres sinuoses i paisatges del Priorat."
 
-region: "Priorat"
-duration: "2 dies"
-distance: "350 km"
+region: "Catalunya"
+duration: "2"
+distance: "350"
 difficulty: "easy"
 
 season: "Tot l'any"

@@ -1,9 +1,9 @@
 ---
-title: "Pirineus"
+title: "Pirineus Girona"
 
 description: "Cinc dies recorrent alguns dels millors ports i carreteres dels Pirineus."
 
-region: "Pirineus"
+region: "Catalunya"
 
 imageDir: "pyrenees"
 hero: "hero.jpg"
@@ -12,8 +12,7 @@ distance: 1200
 duration: 5
 difficulty: "medium"
 
-map:
-  gpx: "/routes/pyrenees/route.gpx"
+gpx: "pyrenees.gpx"
 
 days:
   - number: 1

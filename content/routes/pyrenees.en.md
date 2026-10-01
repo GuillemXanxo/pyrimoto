@@ -1,9 +1,9 @@
 ---
-title: "Pyrenees"
+title: "Pyrenees Girona"
 
 description: "Five days riding some of the best mountain roads in the Pyrenees."
 
-region: "Pyrenees"
+region: "Catalunya"
 
 imageDir: "pyrenees"
 hero: "hero.jpg"
@@ -12,8 +12,7 @@ distance: 1200
 duration: 5
 difficulty: "medium"
 
-map:
-  gpx: "/routes/pyrenees/route.gpx"
+gpx: "pyrenees.gpx"
 
 days:
   - number: 1

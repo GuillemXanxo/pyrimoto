@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Viatges amb moto que recordes on Pyrimoto</title>
+		<title>Viatges amb moto que recordaràs on Pyrimoto</title>
 		<link>http://localhost:1313/</link>
-		<description>Recent content in Viatges amb moto que recordes on Pyrimoto</description>
+		<description>Recent content in Viatges amb moto que recordaràs on Pyrimoto</description>
 		<generator>Hugo</generator>
 		<language>ca</language>
 		
@@ -16,10 +16,10 @@
 				<link>http://localhost:1313/contact/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/contact/</guid>
-				<description>&lt;h2 id=&#34;qui-soc&#34;&gt;Qui soc&lt;/h2&gt;&#xA;&lt;p&gt;Soc [NOM], fundador de Pyrimoto.&lt;/p&gt;&#xA;&lt;p&gt;[ESPAI PER A LA TEVA HISTÒRIA]&lt;/p&gt;&#xA;&lt;p&gt;Pyrimoto neix de la meva passió per la moto, les carreteres secundàries i la descoberta de nous territoris.&lt;/p&gt;</description>
+				<description>&lt;p&gt;Soc en Guillem, fundador de Pyrimoto.&lt;/p&gt;&#xA;&lt;p&gt;[ESPAI PER A LA TEVA HISTÒRIA]&lt;/p&gt;&#xA;&lt;p&gt;Pyrimoto neix de la meva passió per la moto, les carreteres secundàries i la descoberta de nous territoris.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Pirineus</title>
+				<title>Pirineus Girona</title>
 				<link>http://localhost:1313/routes/pyrenees/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/routes/pyrenees/</guid>
@@ -37,7 +37,7 @@
 				<link>http://localhost:1313/about/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/about/</guid>
-				<description>&lt;p&gt;Pyrimoto neix de la passió per la moto, les carreteres secundàries&#xA;i la descoberta del territori.&lt;/p&gt;</description>
+				<description>&lt;h2 id=&#34;qui-soc-i-com-neix-pyrimoto&#34;&gt;Qui soc i com neix Pyrimoto&lt;/h2&gt;&#xA;&lt;p&gt;Soc en Guillem, amant de les motos, els viatges i les aventures.&lt;/p&gt;&#xA;&lt;p&gt;Sovint m&amp;rsquo;he trobat dissenyant excursions i vacances amb moto per a amics o per a mi mateix. I hi havia una cosa que es repetia: quan tornàvem, em deien que els havia sorprès la carretera, els paisatges, els restaurants o les històries de cada lloc per on havíem passat.&lt;/p&gt;&#xA;&lt;p&gt;Pyrimoto neix d&amp;rsquo;aquí.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

@@ -4,6 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
 
     <title>
        Contacte · Pyrimoto 
@@ -15,6 +19,8 @@
   </head>
 
   <body>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
     <header class="site-header">
 
     <div class="site-header-inner">
@@ -70,9 +76,9 @@
 
     <section class="contact-profile">
 
-        <div class="contact-photo">
+    <div class="contact-photo">
 
-            <img
+        <img
         src="/images/contact/profile_hu_577cf84cf905ae4a.webp"
         
         sizes="(max-width: 800px) 100vw, 40vw"
@@ -84,55 +90,148 @@
         decoding="async"
     >
 
-        </div>
+    </div>
 
 
-        <div class="contact-content">
+    <div class="contact-content">
 
-            <p class="contact-eyebrow">
-                Contacte
-            </p>
+        <h1>Contacte</h1>
 
-            <h1>Contacte</h1>
 
-            <div class="contact-body">
-                <h2 id="qui-soc">Qui soc</h2>
-<p>Soc [NOM], fundador de Pyrimoto.</p>
-<p>[ESPAI PER A LA TEVA HISTÒRIA]</p>
-<p>Pyrimoto neix de la meva passió per la moto, les carreteres secundàries i la descoberta de nous territoris.</p>
+        
+
+        <div class="contact-links">
+
+            <div class="contact-links-list">
+
+                
+                    <a
+                        href="mailto:pyrimoto@gmail.com"
+                        class="contact-link"
+                    >
+
+                        <svg
+                            class="contact-link-icon"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M3 5h18v14H3z"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                            />
+
+                            <path
+                                d="m3 6 9 7 9-7"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                            />
+                        </svg>
+
+                        <span>pyrimoto@gmail.com</span>
+
+                    </a>
+                
+
+
+                
+                    <a
+                        href="@pyri.moto"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link"
+                    >
+
+                        <svg
+                            class="contact-link-icon"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+                            <rect
+                                x="3"
+                                y="3"
+                                width="18"
+                                height="18"
+                                rx="5"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                            />
+
+                            <circle
+                                cx="12"
+                                cy="12"
+                                r="4"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                            />
+
+                            <circle
+                                cx="17.5"
+                                cy="6.5"
+                                r="1"
+                                fill="currentColor"
+                            />
+                        </svg>
+
+                        <span>Instagram</span>
+
+                    </a>
+                
+
+
+                
 
             </div>
 
         </div>
 
-    </section>
+        
 
 
-    
-
-
-    <section class="contact-cta">
-
-        <div class="contact-cta-inner">
-
-            <p class="contact-eyebrow">
-                Pyrimoto
-            </p>
-
-            <h2>
-                Descobreix les rutes de Pyrimoto
-            </h2>
-
-            <a
-                href="/routes/"
-                class="button"
-            >
-                Veure totes les rutes
-            </a>
+        <div class="contact-body">
+            <p>Soc en Guillem, fundador de Pyrimoto.</p>
+<p>[ESPAI PER A LA TEVA HISTÒRIA]</p>
+<p>Pyrimoto neix de la meva passió per la moto, les carreteres secundàries i la descoberta de nous territoris.</p>
 
         </div>
 
-    </section>
+
+        <a
+            href="/about/"
+            class="contact-about-link"
+        >
+            Per què Pyrimoto?
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="contact-cta">
+
+    <div class="contact-cta-inner">
+
+        <h2>
+            Descobreix les rutes de Pyrimoto
+        </h2>
+
+        <a
+            href="/routes/"
+            class="button"
+        >
+            Veure totes les rutes
+        </a>
+
+    </div>
+
+</section>
+
+
 
 </main>
 
@@ -143,4 +242,16 @@
 </footer>
 
   </body>
+  
+  <script
+    src="/js/header.min.f57a3ac258480bc5780f8419b8498d7a16120c158ebcdf31194c3599f07dba53.js"
+    integrity="sha256-9Xo6wlhIC8V4D4QZuEmNehYSDBWOvN8xGUw1mfB9ulM="
+    defer
+  ></script>
+  
+  <script
+    src="/js/route-map.min.1474f89424f9bf87e87dd4c0e739b5e096a992b5260e5da23f80d8f28c0cc6db.js"
+    integrity="sha256-FHT4lCT5v4fofdTA5zm14JapkrUmDl2iP4DY8owMxts="
+    defer
+  ></script>
 </html>

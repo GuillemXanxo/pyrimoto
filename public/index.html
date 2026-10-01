@@ -5,9 +5,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
 
     <title>
-       Viatges amb moto que recordes · Pyrimoto 
+       Viatges amb moto que recordaràs · Pyrimoto 
     </title>
 
     <meta name="description" content="Viatges guiats amb moto pels millors paisatges i carreteres dels Pirineus." />
@@ -16,6 +20,8 @@
   </head>
 
   <body>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
     <header class="site-header site-header-home">
 
     <div class="site-header-inner">
@@ -89,12 +95,8 @@
 
         <div class="home-hero-overlay">
 
-            <p class="home-eyebrow">
-                Pyrimoto
-            </p>
-
             <h1>
-                Viatges amb moto que recordes
+                Viatges amb moto que recordaràs
             </h1>
 
             <p>
@@ -112,17 +114,22 @@
 
         <div class="home-section-inner">
 
-            <p class="home-eyebrow">
-                Pyrimoto
-            </p>
-
-            <h2>
-                No venem quilòmetres. Creem experiències.
-            </h2>
-
             <div class="home-philosophy-content">
-                
+                <h2 id="no-venem-quilòmetres-vivim-la-carretera">No venem quilòmetres. Vivim la carretera.</h2>
+<p>Ens agrada anar sense pressa. Deixar-nos portar per una carretera que no coneixíem, parar per una llum especial, una olor, un paisatge o simplement perquè aquell lloc ens demana quedar-nos una estona.</p>
+<p>Perquè viatjar amb moto no és només arribar. És tot allò que passa pel camí.</p>
+<p>I potser és per això que ens agraden unes motos molt concretes: mecàniques, directes i sense filtres innecessaris entre nosaltres, la moto i la carretera. Motos que encara et deixen fer de pilot. Motos que no conduïm: les pilotem.</p>
+<p>A Pyrimoto volem gaudir de la moto, però també de tot allò que ens permet descobrir.</p>
+<p><strong>Perquè una bona ruta no és la que acumula més quilòmetres. És la que et deixa més coses per recordar.</strong></p>
+
             </div>
+            <a
+    href="/about/"
+    class="home-philosophy-link"
+>
+    Per què Pyrimoto?
+</a>
+
 
         </div>
 
@@ -164,7 +171,7 @@
         sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 50vw"
         width="1400"
         height="788"
-        alt="Pirineus"
+        alt="Pirineus Girona"
         class=""
         loading="lazy"
         decoding="async"
@@ -172,9 +179,9 @@
   </div>
 
   <div class="route-card-content">
-    <p class="route-card-region">Pirineus</p>
+    <p class="route-card-region">Catalunya</p>
 
-    <h2>Pirineus</h2>
+    <h2>Pirineus Girona</h2>
 
     <p class="route-card-description">Cinc dies recorrent alguns dels millors ports i carreteres dels Pirineus.</p>
 
@@ -213,16 +220,16 @@
   </div>
 
   <div class="route-card-content">
-    <p class="route-card-region">Priorat</p>
+    <p class="route-card-region">Catalunya</p>
 
     <h2>Priorat</h2>
 
     <p class="route-card-description">Una escapada entre vinyes, carreteres sinuoses i paisatges del Priorat.</p>
 
     <div class="route-card-meta">
-      <span> 350 km km </span>
+      <span> 350 km </span>
 
-      <span> 2 dies dies </span>
+      <span> 2 dies </span>
 
       <span>
          Fàcil
@@ -268,4 +275,16 @@
 </footer>
 
   </body>
+  
+  <script
+    src="/js/header.min.f57a3ac258480bc5780f8419b8498d7a16120c158ebcdf31194c3599f07dba53.js"
+    integrity="sha256-9Xo6wlhIC8V4D4QZuEmNehYSDBWOvN8xGUw1mfB9ulM="
+    defer
+  ></script>
+  
+  <script
+    src="/js/route-map.min.1474f89424f9bf87e87dd4c0e739b5e096a992b5260e5da23f80d8f28c0cc6db.js"
+    integrity="sha256-FHT4lCT5v4fofdTA5zm14JapkrUmDl2iP4DY8owMxts="
+    defer
+  ></script>
 </html>

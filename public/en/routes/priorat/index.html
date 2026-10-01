@@ -4,6 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
 
     <title>
        Priorat · Pyrimoto 
@@ -15,6 +19,8 @@
   </head>
 
   <body>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
     <header class="site-header">
 
     <div class="site-header-inner">
@@ -96,7 +102,7 @@
     <section class="route-intro">
 
         <p class="route-region">
-            Priorat
+            Catalunya
         </p>
 
         <h1>Priorat</h1>
@@ -116,13 +122,13 @@
     >
 
         <div class="route-summary-item">
-            <strong>350 km</strong>
+            <strong>350</strong>
             <span>km</span>
             <small>Distance</small>
         </div>
 
         <div class="route-summary-item">
-            <strong>2 dies</strong>
+            <strong>2</strong>
             <span>days</span>
             <small>Duration</small>
         </div>
@@ -142,13 +148,18 @@
 
     <section class="route-map">
 
-        <h2>The route map</h2>
+    <h2>The route map</h2>
+
+    
 
         <div class="route-map-placeholder">
             <p>Route map</p>
         </div>
 
-    </section>
+    
+
+</section>
+
 
 
     
@@ -195,4 +206,16 @@
 </footer>
 
   </body>
+  
+  <script
+    src="/js/header.min.f57a3ac258480bc5780f8419b8498d7a16120c158ebcdf31194c3599f07dba53.js"
+    integrity="sha256-9Xo6wlhIC8V4D4QZuEmNehYSDBWOvN8xGUw1mfB9ulM="
+    defer
+  ></script>
+  
+  <script
+    src="/js/route-map.min.1474f89424f9bf87e87dd4c0e739b5e096a992b5260e5da23f80d8f28c0cc6db.js"
+    integrity="sha256-FHT4lCT5v4fofdTA5zm14JapkrUmDl2iP4DY8owMxts="
+    defer
+  ></script>
 </html>
