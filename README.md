@@ -29,3 +29,5 @@ pyrimoto/
 │ └── css/
 │
 └── hugo.toml ← CONFIGURACIÓ
+
+Es compila amb hugo --cleanDestinationDir

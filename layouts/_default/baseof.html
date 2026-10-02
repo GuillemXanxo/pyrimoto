@@ -1,43 +1,51 @@
-<!doctype html>
-<html lang="{{ site.Language.LanguageCode }}">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    />
+<!doctype html> <html lang="{{ .Language.Lang }}"> <head> <meta charset="utf-8" />
 
-    <title>
-      {{ if .Title }} {{ .Title }} · {{ site.Title }} {{ else }} {{ site.Title
-      }} {{ end }}
-    </title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="description" content="{{ site.Params.description }}" />
+<title> {{ if .IsHome }} {{ .Site.Title }} · {{ .Title }} {{ else }} {{ .Title }} · {{ .Site.Title }} {{ end }} </title>
 
-    {{ block "head" . }}{{ end }}
-  </head>
+{{ with .Description }}
+<meta name="description" content="{{ . }}" />
+{{ else }}
+<meta name="description" content="{{ .Site.Params.description }}" />
+{{ end }}
 
-  <body>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link
+  rel="canonical"
+  href="{{ .Permalink }}"
+/>
 
-    {{ partial "header.html" . }}
+{{ range .AllTranslations }}
+  <link
+    rel="alternate"
+    hreflang="{{ .Language.Lang }}"
+    href="{{ .Permalink }}"
+  />
+{{ end }}
 
-    <main>{{ block "main" . }}{{ end }}</main>
+<link
+  rel="alternate"
+  hreflang="x-default"
+  href="{{ .Site.Home.Permalink }}"
+/>
 
-    {{ partial "footer.html" . }}
-  </body>
-  {{ $headerJS := resources.Get "js/header.js" | minify | fingerprint }}
-  <script
-    src="{{ $headerJS.RelPermalink }}"
-    integrity="{{ $headerJS.Data.Integrity }}"
-    defer
-  ></script>
-  {{ $routeMapJS := resources.Get "js/route-map.js" | minify | fingerprint }}
-  <script
-    src="{{ $routeMapJS.RelPermalink }}"
-    integrity="{{ $routeMapJS.Data.Integrity }}"
-    defer
-  ></script>
-</html>
+
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}" /> <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+{{ block "head" . }}{{ end }}
+
+</head> <body> <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" ></script>
+
+{{ partial "header.html" . }}
+
+<main> {{ block "main" . }}{{ end }} </main>
+
+{{ partial "footer.html" . }}
+
+{{ $headerJS := resources.Get "js/header.js" | minify | fingerprint }}
+
+<script src="{{ $headerJS.RelPermalink }}" integrity="{{ $headerJS.Data.Integrity }}" defer ></script>
+
+{{ $routeMapJS := resources.Get "js/route-map.js" | minify | fingerprint }}
+
+<script src="{{ $routeMapJS.RelPermalink }}" integrity="{{ $routeMapJS.Data.Integrity }}" defer ></script> </body> </html>

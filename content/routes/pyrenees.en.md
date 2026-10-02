@@ -1,5 +1,5 @@
 ---
-title: "Pyrenees Girona"
+title: "Pyrenees"
 
 description: "Five days riding some of the best mountain roads in the Pyrenees."
 

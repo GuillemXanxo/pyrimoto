@@ -1,5 +1,5 @@
 ---
-title: "Pirineus Girona"
+title: "Pirineus"
 
 description: "Cinc dies recorrent alguns dels millors ports i carreteres dels Pirineus."
 

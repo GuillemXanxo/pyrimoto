@@ -1,25 +1,27 @@
 baseURL = "https://pyrimoto.com/"
 title = "Pyrimoto"
 
-defaultContentLanguage = "ca"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
+
+enableRobotsTXT = true
 
 [languages]
 
   [languages.ca]
     label = "Català"
     locale = "ca"
-    weight = 1
+    weight = 2
 
   [languages.es]
     label = "Castellano"
     locale = "es"
-    weight = 2
+    weight = 3
 
   [languages.en]
     label = "English"
     locale = "en"
-    weight = 3
+    weight = 1
 
   [languages.fr]
     label = "Français"
@@ -33,3 +35,5 @@ defaultContentLanguageInSubdir = false
 
 [params]
   description = "Viatges guiats amb moto pels millors paisatges i carreteres dels Pirineus."
+  author = "Pyrimoto"
+  images = ["images/home/hero.jpg"]
