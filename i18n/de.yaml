@@ -90,3 +90,6 @@ contact_cta_title:
 
 home_about_link:
   other: "Warum Pyrimoto?"
+
+page_not_found: "Die gesuchte Seite wurde nicht gefunden."
+back_to_home: "Zur Startseite"
