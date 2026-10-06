@@ -1,14 +1,15 @@
 ---
 title: "Motorcycle journeys you'll remember"
-description: "Guided rides to discover roads, landscapes and territories from a different perspective."
+
+description: "Guided rides to discover roads, landscapes and places from a different perspective."
 ---
 
 ## We don't sell miles. We live the road.
 
-Travelling by motorcycle isn't just about getting to your destination. It's about everything that happens along the way. It's about being fully present, with all five senses, here and now.
+Motorcycling is about so much more than reaching a destination. It's about enjoying every corner, every landscape and everything that happens between where you start and where you end up.
 
-That's why we like to take our time. To let ourselves be carried along an unfamiliar road, to stop for a special light, a scent, a landscape, or simply because a place makes us want to stay for a while.
+We like to take our time. To discover roads we've never ridden before, stop when the light is just right, take in a landscape, a scent, a moment… or simply stay a little longer because a place feels worth it.
 
-At Pyrimoto, we want to enjoy the motorcycle, but also everything it allows us to discover.
+At Pyrimoto, we believe a motorcycle is much more than a way of getting around. It's a way to discover, to feel and to experience a place.
 
-**Because a good ride isn't the one that adds up the most miles. It's the one that leaves you with the most memories.**
+**Because a great ride isn't measured in miles. It's measured by everything you take home with you.**
