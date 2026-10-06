@@ -1,3 +1,26 @@
+{{ define "head" }}
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+
+{{ end }}
+
+{{ define "scripts" }}
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+{{ $routeMapJS := resources.Get "js/route-map.js" | minify | fingerprint }}
+
+<script
+  src="{{ $routeMapJS.RelPermalink }}"
+  integrity="{{ $routeMapJS.Data.Integrity }}"
+  defer
+></script>
+
+{{ end }}
+
 {{ define "main" }}
 
 <article class="route">

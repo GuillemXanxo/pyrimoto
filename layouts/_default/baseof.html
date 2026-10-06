@@ -38,12 +38,13 @@
 />
 
 
-<link rel="stylesheet" href="{{ "css/main.css" | relURL }}" /> <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}" />
 {{ partial "seo.html" . }}
 {{ partial "schema.html" . }}
 {{ block "head" . }}{{ end }}
 
-</head> <body> <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" ></script>
+</head> 
+<body>
 
 {{ partial "header.html" . }}
 
@@ -55,6 +56,8 @@
 
 <script src="{{ $headerJS.RelPermalink }}" integrity="{{ $headerJS.Data.Integrity }}" defer ></script>
 
-{{ $routeMapJS := resources.Get "js/route-map.js" | minify | fingerprint }}
+{{ block "scripts" . }}{{ end }}
 
-<script src="{{ $routeMapJS.RelPermalink }}" integrity="{{ $routeMapJS.Data.Integrity }}" defer ></script> </body> </html>
+</body> 
+
+</html>
