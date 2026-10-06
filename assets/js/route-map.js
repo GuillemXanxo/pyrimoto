@@ -17,7 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
    * Create map
    */
 
-  const map = L.map(mapElement);
+  const map = L.map(mapElement,{
+    minZoom: 4,
+    maxZoom: 9
+});
 
 
   /*
