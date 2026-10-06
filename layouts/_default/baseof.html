@@ -2,12 +2,20 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title> {{ if .IsHome }} {{ .Site.Title }} · {{ .Title }} {{ else }} {{ .Title }} · {{ .Site.Title }} {{ end }} </title>
+{{ $pageTitle := .Params.title | default .Title | default .Site.Title }}
+
+<title>
+  {{ if .IsHome }}
+    {{ .Site.Title }}
+  {{ else }}
+    {{ $pageTitle }} · {{ .Site.Title }}
+  {{ end }}
+</title>
 
 {{ with .Description }}
-<meta name="description" content="{{ . }}" />
-{{ else }}
-<meta name="description" content="{{ .Site.Params.description }}" />
+  <meta name="description" content="{{ . }}" />
+{{ else with .Site.Params.description }}
+  <meta name="description" content="{{ . }}" />
 {{ end }}
 
 <link
@@ -31,7 +39,8 @@
 
 
 <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" /> <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-
+{{ partial "seo.html" . }}
+{{ partial "schema.html" . }}
 {{ block "head" . }}{{ end }}
 
 </head> <body> <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" ></script>

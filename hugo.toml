@@ -6,34 +6,46 @@ defaultContentLanguageInSubdir = false
 
 enableRobotsTXT = true
 
-[languages]
+[languages.ca]
+  label = "Català"
+  locale = "ca"
+  weight = 2
 
-  [languages.ca]
-    label = "Català"
-    locale = "ca"
-    weight = 2
+  [languages.ca.params]
+    description = "Viatges guiats amb moto pels millors paisatges i carreteres dels Pirineus."
 
-  [languages.es]
-    label = "Castellano"
-    locale = "es"
-    weight = 3
+[languages.es]
+  label = "Castellano"
+  locale = "es"
+  weight = 3
 
-  [languages.en]
-    label = "English"
-    locale = "en"
-    weight = 1
+  [languages.es.params]
+    description = "Viajes guiados en moto por los mejores paisajes y carreteras de los Pirineos."
 
-  [languages.fr]
-    label = "Français"
-    locale = "fr"
-    weight = 4
+[languages.en]
+  label = "English"
+  locale = "en"
+  weight = 1
 
-  [languages.de]
-    label = "Deutsch"
-    locale = "de"
-    weight = 5
+  [languages.en.params]
+    description = "Guided motorcycle tours through the best roads and landscapes of the Pyrenees."
+
+[languages.fr]
+  label = "Français"
+  locale = "fr"
+  weight = 4
+
+  [languages.fr.params]
+    description = "Voyages guidés à moto sur les plus belles routes et à travers les paysages des Pyrénées."
+
+[languages.de]
+  label = "Deutsch"
+  locale = "de"
+  weight = 5
+
+  [languages.de.params]
+    description = "Geführte Motorradreisen auf den schönsten Straßen und durch die Landschaften der Pyrenäen."
 
 [params]
-  description = "Viatges guiats amb moto pels millors paisatges i carreteres dels Pirineus."
   author = "Pyrimoto"
   images = ["images/home/hero.jpg"]

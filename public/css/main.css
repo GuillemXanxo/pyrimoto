@@ -1,0 +1,1100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #222;
+  background: #fff;
+  font-family: system-ui, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ========================================
+   HEADER
+   ======================================== */
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-logo-image {
+  width: 34px;
+  height: 34px;
+
+  display: block;
+
+  object-fit: cover;
+}
+
+.site-logo-text {
+  display: block;
+
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: #111;
+  color: #fff;
+  border-bottom: 1px solid #111;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.site-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: #aaa;
+}
+
+.site-language {
+  color: #fff;
+}
+
+.site-language a,
+.site-language span {
+  color: #fff;
+}
+
+.site-language a:hover {
+  color: #aaa;
+}
+
+/* HOME HEADER */
+
+.site-header-home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background: transparent;
+  color: #fff;
+  border-bottom: 1px solid transparent;
+}
+
+/*
+Quan l'usuari fa scroll,
+JavaScript afegeix .is-scrolled
+*/
+
+.site-header-home.is-scrolled {
+  position: fixed;
+
+  background: rgba(17, 17, 17, 0.96);
+  color: #fff;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.site-header-home .site-logo,
+.site-header-home .site-nav a,
+.site-header-home .site-language,
+.site-header-home .site-language a,
+.site-header-home .site-language span {
+  color: #fff;
+}
+
+.site-header-home .site-nav a:hover,
+.site-header-home .site-language a:hover {
+  color: #ddd;
+}
+
+/* ========================================
+   GENERIC PAGE
+   ======================================== */
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+
+.page-header {
+  margin-bottom: 3rem;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.page-content {
+  line-height: 1.7;
+}
+
+.page-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.page-content h3 {
+  margin-top: 2rem;
+}
+
+.page-content p {
+  margin: 0 0 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .page {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .page-header h1 {
+    font-size: 2.2rem;
+  }
+}
+
+/* ========================================
+   LANGUAGE SWITCHER
+   ======================================== */
+
+.language-switcher {
+  display: flex;
+  gap: 0.65rem;
+
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.language-switcher a,
+.language-switcher span {
+  color: inherit;
+  text-decoration: none;
+}
+
+.language-switcher a:hover {
+  text-decoration: underline;
+}
+
+.language-switcher [aria-current="page"] {
+  font-weight: 700;
+}
+
+/* ========================================
+   HOME
+   ======================================== */
+
+.home {
+  width: 100%;
+}
+
+/* HERO */
+
+.home-hero {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  min-height: 500px;
+
+  overflow: hidden;
+
+  background: #111;
+}
+
+.home-hero-image {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.home-hero::after {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0.05) 65%
+  );
+}
+
+.home-hero-overlay {
+  position: absolute;
+  z-index: 1;
+
+  left: 50%;
+  bottom: 4rem;
+
+  width: min(900px, calc(100% - 3rem));
+
+  transform: translateX(-50%);
+
+  color: #fff;
+}
+
+.home-eyebrow {
+  margin: 0 0 0.75rem;
+
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.home-hero h1 {
+  max-width: 850px;
+
+  margin: 0 0 1rem;
+
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.home-hero-overlay > p:last-child {
+  max-width: 650px;
+
+  margin: 0;
+
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .home-hero {
+    height: 100vh;
+    height: 100svh;
+    min-height: 500px;
+  }
+
+  .home-hero-overlay {
+    bottom: 2.5rem;
+  }
+
+  .home-hero h1 {
+    font-size: clamp(2.8rem, 13vw, 4.5rem);
+  }
+
+  .home-hero-overlay > p:last-child {
+    font-size: 1rem;
+  }
+
+  .home-section-inner {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+/* GENERIC HOME SECTIONS */
+
+.home-section-inner {
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 7rem 1.5rem;
+}
+
+/* PHILOSOPHY */
+
+.home-philosophy {
+  background: #f5f4f0;
+}
+
+.home-philosophy .home-section-inner {
+  max-width: 900px;
+}
+
+.home-philosophy h2 {
+  max-width: 800px;
+
+  margin: 0 0 2rem;
+
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #222;
+  font-weight: 700;
+}
+
+.home-philosophy-content h2 {
+  margin: 0 0 2rem;
+
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+
+  color: #222;
+  font-weight: 700;
+}
+
+.home-philosophy-content {
+  max-width: 700px;
+
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.home-philosophy-link {
+  display: inline-block;
+
+  margin-top: 2rem;
+
+  color: #222;
+  text-decoration: none;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  border-bottom: 1px solid #222;
+
+  padding-bottom: 0.25rem;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.home-philosophy-link:hover {
+  color: #777;
+  border-color: #777;
+}
+
+/* ROUTES */
+
+.home-routes {
+  background: #fff;
+}
+
+.home-section-header {
+  margin-bottom: 3rem;
+}
+
+.home-section-header h2 {
+  margin: 0;
+
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+/* CTA */
+
+.home-cta {
+  background: #171717;
+  color: #fff;
+
+  text-align: center;
+}
+
+.home-cta .home-section-inner {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.home-cta h2 {
+  margin: 0 0 2rem;
+
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.button {
+  display: inline-block;
+
+  padding: 0.9rem 1.5rem;
+
+  color: #171717;
+  background: #fff;
+
+  text-decoration: none;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.button:hover {
+  color: #fff;
+  background: #555;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .home-hero {
+    height: 70vh;
+    min-height: 500px;
+  }
+
+  .home-hero-overlay {
+    bottom: 2.5rem;
+  }
+
+  .home-hero h1 {
+    font-size: clamp(2.8rem, 13vw, 4.5rem);
+  }
+
+  .home-hero-overlay > p:last-child {
+    font-size: 1rem;
+  }
+
+  .home-section-inner {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+/* ========================================
+   CONTACT
+   ======================================== */
+
+.contact-profile {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem;
+
+  display: grid;
+  grid-template-columns: minmax(280px, 380px) 1fr;
+  gap: 5rem;
+
+  align-items: start;
+}
+
+.contact-photo {
+  width: 100%;
+}
+
+.contact-profile-image {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.contact-content {
+  max-width: 650px;
+}
+
+.contact-content h1 {
+  margin: 0 0 2rem;
+
+  color: #222;
+
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+}
+
+.contact-links {
+  margin: 0 0 3rem;
+}
+
+.contact-links-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.9rem;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  color: #222;
+  text-decoration: none;
+
+  font-size: 1rem;
+  line-height: 1.5;
+
+  transition: color 0.2s ease;
+}
+
+.contact-link:hover {
+  color: #777;
+}
+
+.contact-link-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+}
+
+.contact-body {
+  line-height: 1.8;
+  color: #444;
+}
+
+.contact-body h2 {
+  margin: 3rem 0 1rem;
+
+  color: #222;
+
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.contact-body p {
+  margin: 0 0 1.5rem;
+}
+
+.contact-about-link {
+  display: inline-block;
+
+  margin-top: 2rem;
+
+  color: #222;
+  text-decoration: none;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  border-bottom: 1px solid #222;
+  padding-bottom: 0.25rem;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.contact-about-link:hover {
+  color: #777;
+  border-color: #777;
+}
+
+.contact-cta {
+  border-top: 1px solid #e5e5e5;
+}
+
+.contact-cta-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem;
+  text-align: center;
+}
+
+.contact-cta {
+  background: #111;
+  color: #fff;
+  border-top: 1px solid #111;
+}
+
+.contact-cta-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem;
+  text-align: center;
+}
+
+.contact-cta .contact-eyebrow {
+  color: #aaa;
+}
+
+.contact-cta h2 {
+  margin: 0 0 2rem;
+
+  color: #fff;
+
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.1;
+}
+
+.contact-cta .button {
+  color: #111;
+  background: #fff;
+  border-color: #fff;
+}
+
+.contact-cta .button:hover {
+  color: #fff;
+  background: transparent;
+  border-color: #fff;
+}
+
+@media (max-width: 800px) {
+  .contact-profile {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 4rem 1.5rem;
+  }
+
+  .contact-photo {
+    max-width: 420px;
+  }
+
+  .contact-content h1 {
+    font-size: 2.8rem;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+  .contact-profile {
+    grid-template-columns: 1fr;
+
+    gap: 4rem;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .contact-photo {
+    max-width: 500px;
+  }
+
+  .contact-content h1 {
+    margin-bottom: 2rem;
+  }
+
+  .contact-links-inner {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .contact-cta-inner {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+/* ========================================
+   ROUTE
+   ======================================== */
+
+.route {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ========================================
+   ROUTE HERO
+   ======================================== */
+
+.route-hero {
+  width: 100%;
+  height: 25vh;
+  min-height: 220px;
+  max-height: 360px;
+  overflow: hidden;
+}
+
+.route-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ========================================
+   ROUTE INTRO
+   ======================================== */
+
+.route-intro {
+  max-width: 800px;
+  margin: 4rem auto 3rem;
+  padding: 0 1.5rem;
+}
+
+.route-region {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8rem;
+}
+
+.route-intro h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.route-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* ========================================
+   ROUTE SUMMARY
+   ======================================== */
+
+.route-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.route-summary-item {
+  padding: 2rem;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+.route-summary-item:last-child {
+  border-right: 0;
+}
+
+.route-summary-item strong {
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.route-summary-item span {
+  margin-left: 0.3rem;
+}
+
+.route-summary-item small {
+  display: block;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+/* ========================================
+   ROUTE MAP / CONTENT / ITINERARY
+   ======================================== */
+
+.route-map,
+.route-content,
+.route-itinerary {
+  max-width: 800px;
+  margin: 5rem auto;
+  padding: 0 1.5rem;
+}
+
+.route-map-placeholder {
+  height: 400px;
+  display: grid;
+  place-items: center;
+  background: #eee;
+  color: #777;
+}
+
+.route-content {
+  line-height: 1.7;
+}
+
+.route-content h2,
+.route-map h2,
+.route-itinerary h2 {
+  margin-bottom: 2rem;
+}
+
+.route-map-container {
+  width: 100%;
+  height: 500px;
+
+  overflow: hidden;
+
+  background: #eee;
+}
+
+.route-map-container .leaflet-container {
+  width: 100%;
+  height: 100%;
+
+  font-family: inherit;
+}
+
+.route-map-container .leaflet-control-attribution {
+  font-size: 0.65rem;
+}
+
+/* ========================================
+   ROUTE DAYS
+   ======================================== */
+
+.route-day {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid #ddd;
+}
+
+.route-day-number {
+  text-align: center;
+}
+
+.route-day-number span {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.route-day-number strong {
+  display: block;
+  font-size: 2.5rem;
+}
+
+.route-day-content h3 {
+  margin-top: 0;
+}
+
+.route-day-distance {
+  color: #777;
+}
+
+/* ========================================
+   ROUTES INDEX
+   ======================================== */
+
+.routes-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+
+.routes-header {
+  max-width: 800px;
+  margin-bottom: 4rem;
+}
+
+.routes-eyebrow {
+  margin: 0 0 0.75rem;
+
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #777;
+}
+
+.routes-header h1 {
+  margin: 0 0 1.5rem;
+
+  font-size: 3.5rem;
+  line-height: 1.1;
+}
+
+.routes-intro {
+  max-width: 700px;
+
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* GRID */
+
+.routes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4rem 2rem;
+}
+
+/* CARD */
+
+.route-card {
+  display: block;
+
+  color: inherit;
+  text-decoration: none;
+
+  background: #fff;
+}
+
+/* IMAGE */
+
+.route-card-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+  overflow: hidden;
+
+  background: #eee;
+}
+
+.route-card-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition: transform 0.5s ease;
+}
+
+.route-card:hover .route-card-image img {
+  transform: scale(1.03);
+}
+
+/* CONTENT */
+
+.route-card-content {
+  padding-top: 1.25rem;
+}
+
+.route-card-region {
+  margin: 0 0 0.5rem;
+
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+  color: #777;
+}
+
+.route-card h2 {
+  margin: 0 0 0.75rem;
+
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+.route-card-description {
+  margin: 0 0 1.25rem;
+
+  line-height: 1.6;
+  color: #555;
+}
+
+/* META */
+
+.route-card-meta {
+  display: flex;
+  gap: 1.5rem;
+
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.route-card-meta span {
+  position: relative;
+}
+
+.route-card-meta span + span::before {
+  content: "·";
+
+  position: absolute;
+  left: -0.85rem;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .routes-page {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .routes-header {
+    margin-bottom: 3rem;
+  }
+
+  .routes-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .routes-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .route-card h2 {
+    font-size: 1.75rem;
+  }
+}
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 700px) {
+  .site-header-inner {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "logo language"
+      "nav nav";
+
+    row-gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .site-logo {
+    grid-area: logo;
+  }
+
+  .site-language {
+    grid-area: language;
+  }
+
+  .site-nav {
+    grid-area: nav;
+
+    gap: 1.5rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .route-intro h1 {
+    font-size: 2.2rem;
+  }
+
+  .route-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .route-summary-item {
+    border-right: 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .route-summary-item:last-child {
+    border-bottom: 0;
+  }
+
+  .route-day {
+    grid-template-columns: 60px 1fr;
+    gap: 1rem;
+  }
+}

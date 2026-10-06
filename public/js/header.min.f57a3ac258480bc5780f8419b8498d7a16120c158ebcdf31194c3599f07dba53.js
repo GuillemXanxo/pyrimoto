@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelector(".site-header-home");if(!e)return;const t=()=>{window.scrollY>40?e.classList.add("is-scrolled"):e.classList.remove("is-scrolled")};t(),window.addEventListener("scroll",t,{passive:!0})})

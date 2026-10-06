@@ -1,0 +1,22 @@
+{{ $pageTitle := .Params.title | default .Title | default .Site.Title }} {{
+$description := .Description | default .Site.Params.description }}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": {{ .Site.Title | jsonify }},
+    "url": {{ .Site.Home.Permalink | jsonify }}
+  }
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": {{ $pageTitle | jsonify }},
+    "description": {{ $description | jsonify }},
+    "url": {{ .Permalink | jsonify }},
+    "inLanguage": {{ .Language.Lang | jsonify }}
+  }
+</script>
