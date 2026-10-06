@@ -805,6 +805,8 @@ JavaScript afegeix .is-scrolled
 
 .route-map,
 .route-content,
+.route-included,
+.route-notincluded,
 .route-itinerary {
   max-width: 800px;
   margin: 5rem auto;
