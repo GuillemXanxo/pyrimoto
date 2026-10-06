@@ -5,8 +5,12 @@ email: "pyrimoto@gmail.com"
 instagram: "@pyri.moto"
 ---
 
+---
+
 Soc en Guillem, fundador de Pyrimoto.
 
-[ESPAI PER A LA TEVA HISTÒRIA]
+M'encantaria compartir amb tu la meva passió per la moto, acompanyar-te per les carreteres que m'envolten i descobrir plegats aquest territori.
 
-Pyrimoto neix de la meva passió per la moto, les carreteres secundàries i la descoberta de nous territoris.
+Si vols saber-ne més, si tens qualsevol pregunta o simplement et ve de gust parlar de motos i viatges, posa't en contacte amb mi.
+
+**Parlem?**

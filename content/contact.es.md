@@ -1,15 +1,16 @@
 ---
-title: "Contacte"
-description: "Parlem de motos, rutes i nous viatges."
-email: ""
-instagram: ""
-phone: ""
+title: "Contacto"
+description: "Hablemos de motos, rutas y nuevos viajes."
+email: "pyrimoto@gmail.com"
+instagram: "@pyri.moto"
 ---
 
-## Qui soc
+---
 
-Soc [NOM], fundador de Pyrimoto.
+Soy Guillem, fundador de Pyrimoto.
 
-[ESPAI PER A LA TEVA HISTÒRIA]
+Me encantaría compartir contigo mi pasión por las motos, acompañarte por las carreteras que me rodean y descubrir juntos este territorio.
 
-Pyrimoto neix de la meva passió per la moto, les carreteres secundàries i la descoberta de nous territoris.
+Si quieres saber más, tienes alguna pregunta o simplemente te apetece hablar de motos y viajes, ponte en contacto conmigo.
+
+**¿Hablamos?**
