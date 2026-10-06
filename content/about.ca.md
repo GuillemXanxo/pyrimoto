@@ -1,5 +1,6 @@
 ---
 title: "Sobre Pyrimoto"
+
 description: "Una manera d'entendre la moto, la carretera i els viatges."
 ---
 
@@ -7,13 +8,13 @@ description: "Una manera d'entendre la moto, la carretera i els viatges."
 
 Soc en Guillem, amant de les motos, els viatges i les aventures.
 
-Sovint m'he trobat dissenyant excursions i vacances amb moto per a amics o per a mi mateix. I hi havia una cosa que es repetia: quan tornàvem, em deien que els havia sorprès la carretera, els paisatges, els restaurants o les històries de cada lloc per on havíem passat.
+Sovint m'he trobat dissenyant excursions i viatges en moto per a amics o per a mi mateix. I hi havia una cosa que es repetia: quan tornàvem, em deien que els havia sorprès la carretera, els paisatges, els restaurants o les històries de cada lloc per on havíem passat.
 
 Pyrimoto neix d'aquí.
 
-De la voluntat d'acompanyar i compartir aquestes experiències amb un cercle més ampli de gent: vosaltres.
+De la voluntat d'acompanyar i compartir aquesta manera de viure la moto i els viatges amb més gent: amb vosaltres.
 
-No es tracta només de trobar una bona carretera. Es tracta de descobrir què hi ha al final d'aquella carretera, què trobem pel camí i què ens emportem quan tornem a casa.
+Perquè no es tracta només de trobar una bona carretera. Es tracta de descobrir què hi ha al final d'aquella carretera, què trobem pel camí i què ens emportem quan tornem a casa.
 
 ## Les motos sempre hi han estat
 
@@ -25,15 +26,17 @@ Més tard, a casa van aparèixer una Suzuki GS500, després una Yamaha Thunderca
 
 Era obvi que em moria de ganes de fer-ne catorze i tenir un ciclomotor. Ja no podia esperar.
 
-Tan aviat com vaig poder, em vaig treure la llicència i, des d'aleshores, sempre hi ha hagut una moto al meu garatge. Actualment és una BMW k75s "ultima" del 1995 i una Honda CBF600sa del 2008, qui sap quines seràn quan ens coneixem...
+Tan aviat com vaig poder, em vaig treure la llicència i, des d'aleshores, sempre hi ha hagut una moto al meu garatge.
+
+Actualment és una BMW K75S «Ultima» del 1995 i una Honda CBF600SA del 2008. Qui sap quines seran quan ens coneguem...
 
 ## Motos que et demanen ser-hi
 
-Tot i que sempre hi ha hagut una moto al meu garatge, no sempre n'he esperat la mateixa experiència. I, per tant, no sempre he tingut el mateix tipus ni estil de motocicleta.
+Tot i que sempre hi ha hagut una moto al meu garatge, no sempre n'he esperat la mateixa experiència. I, per tant, tampoc he tingut sempre el mateix tipus o estil de motocicleta.
 
 Amb els anys he après a valorar tot allò que s'escapa del velocímetre. A gaudir de les motos que et premien per estar-hi present, no per anar al màxim.
 
-Aquest tipus de motos acostumen a tenir poques barreres entre el puny i la roda del darrere.
+Aquest tipus de motos acostumen a tenir poques barreres entre el puny de gas i la roda del darrere.
 
 Motos mecàniques, directes, que et deixen sentir què està passant i que et demanen alguna cosa a canvi: que hi siguis i que tinguis paciència.
 
@@ -41,7 +44,7 @@ Motos mecàniques, directes, que et deixen sentir què està passant i que et de
 
 Per mi, pilotar una moto significa acabar el trajecte amb un somriure d'orella a orella.
 
-Un dia que has anat amb moto canvia respecte d'un dia que no ho has fet. És difícil d'explicar exactament per què, però aquesta és la màgia d'aquesta màquina.
+Un dia que has anat amb moto és diferent d'un dia que no ho has fet. És difícil d'explicar exactament per què, però aquesta és part de la màgia d'aquesta màquina.
 
 No és només el moviment. És la sensació d'haver estat allà, atent a cada quilòmetre.
 
@@ -59,7 +62,7 @@ La carretera no és un circuit. I això també forma part del viatge.
 
 Les meves rutes acostumen a començar mirant un mapa.
 
-Són els camins més divertits que veig per anar d'un punt que m'interessa a un altre. Una carretera que fa una volta que no sembla tenir gaire sentit. Un port que no coneixia. Un tram que, vist sobre el mapa, et fa pensar: per aquí hi he de passar.
+Són els camins més divertits que veig per anar d'un punt que m'interessa a un altre. Una carretera que fa una volta que no sembla tenir gaire sentit. Un port que no coneixia. Un tram que, vist sobre el mapa, et fa pensar: «Per aquí hi he de passar».
 
 Després, la realitat sempre hi posa de la seva part.
 
