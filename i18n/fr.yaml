@@ -93,3 +93,5 @@ home_about_link:
 
 page_not_found: "Nous n’avons pas trouvé la page que vous recherchez."
 back_to_home: "Retour à l’accueil"
+route_included: "Qu’est-ce qui est inclus ?"
+route_notincluded: "Qu’est-ce qui n’est pas inclus ?"

@@ -155,10 +155,65 @@
                         <p>
                             {{ .description }}
                         </p>
+                        <!--
+                        {{range .interests}}
+                        <ul>
+                            <li>{{ .element }}</li>
+                        </ul>
+                        -->
 
                     </div>
 
                 </article>
+
+            {{ end }}
+
+        </div>
+
+    </section>
+
+    <!-- INCLUDED -->
+
+    <section class="route-included">
+
+        <h2>{{ i18n "route_included" }}</h2>
+
+        <div class="route-included-list">
+
+            {{ range .Params.included }}
+
+                <ul class="route-included-element">
+                    <li>
+                        {{ .element }}
+                    </li>
+
+                </ul>
+
+            {{ end }}
+
+        </div>
+
+    </section>
+
+    <!-- NOT INCLUDED -->
+
+    <section class="route-included">
+
+        <h2>{{ i18n "route_notincluded" }}</h2>
+
+        <p>
+            {{ i18n "route_notincluded_paragraph" }}
+        </p>
+        <div class="route-included-list">
+
+            {{ range .Params.notincluded }}
+
+                <ul class="route-included-element">
+                    <li>
+                        {{ .element }}
+                    </li>
+
+                </ul>
 
             {{ end }}
 

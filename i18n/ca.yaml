@@ -93,3 +93,6 @@ home_about_link:
 
 page_not_found: "No hem trobat la pàgina que busques."
 back_to_home: "Tornar a l'inici"
+route_included: "Què inclou?"
+route_notincluded: "Què no inclou?"
+route_notincluded_paragraph: "El servei de Pyrimoto és el d'un guia i acompanyant en moto, no el d'una agència de viatges. Per tant, cadascú assumeix les seves despeses personals durant el viatge, com ara:"
