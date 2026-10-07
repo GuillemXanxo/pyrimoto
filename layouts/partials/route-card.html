@@ -22,6 +22,8 @@
         {{ $difficulty := printf "difficulty_%s" .Params.difficulty }} {{ i18n
         $difficulty }}
       </span>
+
+      <span> {{ .Params.people }} {{ i18n "route_people" }} </span>
     </div>
   </div>
 </a>
