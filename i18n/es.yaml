@@ -40,8 +40,8 @@ difficulty_hard:
 main_navigation:
   other: "Navegación principal"
 
-routes:
-  other: "Rutas"
+guided_routes:
+  other: "Rutas guiadas"
 
 about:
   other: "Sobre Pyrimoto"

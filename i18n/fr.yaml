@@ -40,8 +40,8 @@ difficulty_hard:
 main_navigation:
   other: "Navigation principale"
 
-routes:
-  other: "Itinéraires"
+guided_routes:
+  other: "Balades à moto accompagnées"
 
 about:
   other: "À propos de Pyrimoto"
