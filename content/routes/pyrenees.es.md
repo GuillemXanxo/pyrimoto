@@ -11,6 +11,7 @@ hero: "hero.jpg"
 distance: 1200
 duration: 5
 difficulty: "medium"
+people: 6
 
 gpx: "pyrenees.gpx"
 
@@ -39,6 +40,22 @@ days:
     title: "Sort → Olot"
     distance: 230
     description: "Última jornada de la ruta, tornant cap a Olot per carreteres secundàries i paisatges de muntanya."
+
+included:
+  - element: "Acompanyament en moto durant tota la ruta."
+  - element: "Rutes pensades i seleccionades personalment, basades en el coneixement del territori."
+  - element: "Coneixement local: carreteres, paisatges, pobles, parades i aquells llocs que no sempre apareixen als mapes."
+  - element: "Suport i orientació durant el viatge, també davant dels petits imprevistos que puguin sorgir."
+  - element: "Flexibilitat per adaptar el ritme i el recorregut a les necessitats del grup."
+  - element: "I, sobretot, les ganes de compartir amb tu un territori que conec i una manera de viure la moto que va molt més enllà de fer quilòmetres."
+
+notincluded:
+  - element: "Allotjament, àpats i begudes."
+  - element: "Gasolina."
+  - element: "Peatges i/o aparcaments."
+  - element: "Lloguer o manteniment de la motocicleta."
+  - element: "Assegurances."
+  - element: "Qualsevol altra despesa personal."
 ---
 
 La ruta dels Pirineus és una experiència pensada per descobrir el territori
