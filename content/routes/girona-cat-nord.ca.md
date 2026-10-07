@@ -11,6 +11,7 @@ hero: "hero.jpg"
 distance: 635
 duration: 3
 difficulty: "medium"
+people: 4
 
 gpx: "girona-cat-nord.gpx"
 
@@ -36,8 +37,8 @@ days:
     distance: 226
     description: "Comencem la ruta endinsant-nos als Pirineus cap a Maçanet de cabrenys per acabar baixant a Tautavel per carreteres secundàries i ports de muntanya."
     interests:
-      - interest: "A"
-      - interest: "B"
+      - interest: "Pujada a Maçanet de cabrenys."
+      - interest: "Tautavel."
 
   - number: 2
     title: "Tautavel → Cerdanya"

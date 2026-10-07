@@ -769,7 +769,7 @@ JavaScript afegeix .is-scrolled
 
 .route-summary {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }

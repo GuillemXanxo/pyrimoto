@@ -67,6 +67,9 @@ route_difficulty:
 route_duration:
   other: "Durada"
 
+route_people:
+  other: "Persones"
+
 home_philosophy_title:
   other: "No venem quilòmetres. Creem experiències."
 

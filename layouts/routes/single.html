@@ -86,6 +86,14 @@
             <small>{{ i18n "difficulty" }}</small>
         </div>
 
+        <div class="route-summary-item">
+            <strong>
+                {{ .Params.people }}
+            </strong>
+
+            <small>{{ i18n "route_people" }}</small>
+        </div>
+
     </section>
 
 
@@ -155,12 +163,12 @@
                         <p>
                             {{ .description }}
                         </p>
-                        <!--
+                        
                         {{range .interests}}
                         <ul>
-                            <li>{{ .element }}</li>
+                            <li>{{ .interest }}</li>
                         </ul>
-                        -->
+                        {{ end }}
 
                     </div>
 
