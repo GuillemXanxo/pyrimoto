@@ -8,6 +8,8 @@ region: "Catalogne - France"
 imageDir: "pyrenees"
 hero: "hero.jpg"
 
+price: 180
+
 distance: 635
 duration: 3
 difficulty: "medium"
@@ -20,7 +22,7 @@ included:
   - element: "Des itinéraires pensés et sélectionnés personnellement, grâce à une connaissance approfondie du territoire."
   - element: "Connaissance locale : routes, paysages, villages, pauses et ces endroits qui ne figurent pas toujours sur les cartes."
   - element: "Assistance et conseils tout au long du voyage, y compris en cas de petits imprévus."
-  - element: "Flexibilité pour adapter le rythme et le parcours aux besoins du groupe."
+  - element: "Hébergements et restaurants soigneusement sélectionnés et préalablement visités."
   - element: "Et surtout, l'envie de partager avec vous un territoire que je connais et une manière de vivre la moto qui va bien au-delà des kilomètres parcourus."
 
 notincluded:

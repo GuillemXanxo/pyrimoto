@@ -8,6 +8,8 @@ region: "Catalonia - France"
 imageDir: "pyrenees"
 hero: "hero.jpg"
 
+price: 180
+
 distance: 635
 duration: 3
 difficulty: "medium"
@@ -20,7 +22,7 @@ included:
   - element: "Routes personally planned and selected based on local knowledge of the area."
   - element: "Local knowledge: roads, landscapes, villages, stops and those places that don't always appear on the map."
   - element: "Support and guidance throughout the journey, including help with any minor unexpected situations that may arise."
-  - element: "Flexibility to adapt the pace and route to the needs of the group."
+  - element: "Hand-picked accommodation and restaurants, personally selected and visited in advance."
   - element: "And above all, the desire to share a territory I know well and a way of experiencing motorcycling that goes far beyond simply covering miles."
 
 notincluded:

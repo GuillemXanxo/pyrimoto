@@ -8,6 +8,8 @@ region: "Katalonien - Frankreich"
 imageDir: "pyrenees"
 hero: "hero.jpg"
 
+price: 180
+
 distance: 635
 duration: 3
 difficulty: "medium"
@@ -20,7 +22,7 @@ included:
   - element: "Persönlich geplante und ausgewählte Routen, basierend auf meiner Ortskenntnis."
   - element: "Lokales Wissen: Straßen, Landschaften, Dörfer, Stopps und Orte, die nicht immer auf der Karte zu finden sind."
   - element: "Unterstützung und Orientierung während der Reise, auch bei kleineren unvorhergesehenen Situationen."
-  - element: "Flexibilität, um Tempo und Streckenverlauf an die Bedürfnisse der Gruppe anzupassen."
+  - element: "Ausgewählte Unterkünfte und Restaurants, die zuvor persönlich ausgewählt und besucht wurden."
   - element: "Und vor allem die Freude daran, mit dir eine Region zu teilen, die ich gut kenne, und eine Art, Motorrad zu fahren, die weit über das Zurücklegen von Kilometern hinausgeht."
 
 notincluded:
