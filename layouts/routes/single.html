@@ -102,6 +102,15 @@
 
     </section>
 
+    <!-- DESCRIPTION -->
+
+    <section class="route-content">
+
+        <h2>{{ i18n "route_description" }}</h2>
+
+        {{ .Content }}
+
+    </section>
 
     <!-- MAP -->
 
@@ -111,11 +120,11 @@
 
     {{ if .Params.gpx }}
 
-        <div
+    <div
     id="route-map"
     class="route-map-container"
     data-gpx="{{ printf "/gpx/%s" .Params.gpx }}"
-></div>
+    ></div>
 
 
     {{ else }}
@@ -127,18 +136,6 @@
     {{ end }}
 
 </section>
-
-
-
-    <!-- DESCRIPTION -->
-
-    <section class="route-content">
-
-        <h2>{{ i18n "route_description" }}</h2>
-
-        {{ .Content }}
-
-    </section>
 
 
     <!-- ITINERARY -->
@@ -184,6 +181,11 @@
 
         </div>
 
+    </section>
+
+    <!-- DISCLOSURE -->
+    <section>
+        {{ partial "route-disclosure.html" }}
     </section>
 
     <!-- INCLUDED -->

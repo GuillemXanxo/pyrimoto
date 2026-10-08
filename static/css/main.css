@@ -807,6 +807,7 @@ JavaScript afegeix .is-scrolled
 .route-content,
 .route-included,
 .route-notincluded,
+.route-disclosure,
 .route-itinerary {
   max-width: 800px;
   margin: 5rem auto;
@@ -885,6 +886,17 @@ JavaScript afegeix .is-scrolled
 
 .route-day-distance {
   color: #777;
+}
+
+/* ========================================
+   ROUTE DISCLOSURE
+   ======================================== */
+
+.route-disclosure {
+  border: 3px dashed #d00;
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+  max-width: 800px;
 }
 
 /* ========================================
