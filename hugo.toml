@@ -49,3 +49,7 @@ enableRobotsTXT = true
 [params]
   author = "Pyrimoto"
   images = ["images/home/hero.jpg"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
