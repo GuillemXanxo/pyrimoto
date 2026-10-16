@@ -17,6 +17,8 @@ people: 4
 
 gpx: "girona-cat-nord.gpx"
 
+disclosure: "El servei que estàs contractant és d'acompanyament del teu propi viatge. Vull acompanyar-te i portar-te per les millors carreteres, que coneguis restaurants i allotjaments singulars i que ho passis bé a un territori que conec. Jo m'encarrego de la gestió del viatge, contacto allotjaments i restaurants, preparo les parades i descansos, i, fins i tot, et puc ajudar a buscar lloguer de moto si ho necessites. Però no és un servei on paguis i t'oblidis. M'agrada que el viatge te'l continuis fent teu, que el construim entre totes les persones que hi formarem part. Per això no és una agència on contractes un paquet de serveis i t'oblides, ni ho pretén ser."
+
 included:
   - element: "Acompanyament en moto durant tota la ruta."
   - element: "Rutes pensades i seleccionades personalment, basades en el coneixement del territori."

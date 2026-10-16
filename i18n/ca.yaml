@@ -102,3 +102,6 @@ route_notincluded_paragraph: "El servei de Pyrimoto és el d'un guia i acompanya
 route_price_VAT: "IVA inclòs"
 route_price_pax: "€ per persona"
 route_disclosure_title: "Què esperar del servei:"
+
+legal: "Avís legal"
+privacy: "Política de privacitat"

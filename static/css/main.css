@@ -15,6 +15,29 @@ img {
 }
 
 /* ========================================
+   FOOTER
+   ======================================== */
+
+.footer_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+
+.footer_links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer_links a:hover {
+  color: #aaa;
+  text-decoration: none;
+}
+
+/* ========================================
    HEADER
    ======================================== */
 .site-logo {

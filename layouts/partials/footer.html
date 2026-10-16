@@ -1,3 +1,8 @@
-<footer>
-  <p>&copy; {{ now.Year }} Pyrimoto</p>
+<footer class="site-header">
+  <div class="footer_links">
+    <a class="footer_link" href="{{ "/legal/" | relLangURL }}">{{ i18n "legal" }}</a>
+    <a class="footer_link" href="{{ "/privacy/" | relLangURL }}">{{ i18n "privacy" }}</a>
+  </div>
+
+  <p class="footer_links">&copy; {{ now.Year }} Pyrimoto</p>
 </footer>
